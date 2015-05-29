@@ -1,0 +1,6 @@
+#PBS -q cs6210
+#PBS -l nodes=1:sixcore
+#PBS -l walltime=00:10:00
+#PBS -N MPIajain333
+OMPI_MCA_mpi_yield_when_idle=0
+/nethome/ajain333/project_2_final_cluster/OPENMPI/Testandplotmpi.sh
